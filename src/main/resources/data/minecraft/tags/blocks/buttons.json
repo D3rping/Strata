@@ -15,6 +15,20 @@
     "strata:limestone_button",
     "strata:pahoehoe_button",
     "strata:schist_button",
-    "strata:shale_button"
+    "strata:shale_button",
+    "strata:phonolite_button",
+    "strata:claystone_button",
+    "strata:dacite_button",
+    "strata:dunite_button",
+    "strata:komatiite_button",
+    "strata:pegmatite_button",
+    "strata:cataclasite_button",
+    "strata:migmatite_button",
+    "strata:slate_button",
+    "strata:soapstone_button",
+    "strata:phyllite_button",
+    "strata:mudstone_button",
+    "strata:dolomite_button",
+    "strata:arkose_button"
   ]
 }
