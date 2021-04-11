@@ -14,7 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class BlockList
 {
         //Deferred Registries Method
-        public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<Block>(ForgeRegistries.BLOCKS, Strata.MOD_ID);
+        public static final DeferredRegister BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Strata.MOD_ID);
 
 /*
         //Debug Blocks

@@ -1,5 +1,7 @@
 modLoader="javafml" #mandatory
 
+license="MIT License" #mandatory
+
 loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 
 issueTrackerURL="https://github.com/Quizer9O8/Strata/issues" #optional
@@ -39,6 +41,6 @@ description='''Strata is a mod that adds various types of rocks into the game. I
 [[dependencies.examplemod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.5]"
     ordering="NONE"
     side="BOTH"

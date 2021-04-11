@@ -9,7 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemList
 {
-    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<Item>(ForgeRegistries.ITEMS, Strata.MOD_ID);
+    public static final DeferredRegister ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Strata.MOD_ID);
 
 /*
     //Debug

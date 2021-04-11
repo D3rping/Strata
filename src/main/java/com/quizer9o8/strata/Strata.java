@@ -69,10 +69,10 @@ public class Strata
     }
 
     //Should tell in the logs if the blocks are correctly being read into the tag or not for TerraForged
-    @SubscribeEvent
-    public static void started(FMLServerStartedEvent event) {
-        new BlockTags.Wrapper(new ResourceLocation("forge:wg_stone")).getAllElements().forEach(System.out::println);
-    }
+    //@SubscribeEvent
+    //public static void started(FMLServerStartedEvent event) {
+   //     new BlockTags.Wrapper(new ResourceLocation("forge:wg_stone")).getAllElements().forEach(System.out::println);
+    //}
 
     //Creative Tab Objects
 

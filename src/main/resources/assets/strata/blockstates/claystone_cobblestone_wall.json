@@ -3,16 +3,16 @@
         {   "when": { "up": "true" },
             "apply": { "model": "strata:block/claystone_cobblestone_wall_post" }
         },
-        {   "when": { "north": "true" },
+        {   "when": { "north": "low" },
             "apply": { "model": "strata:block/claystone_cobblestone_wall_side", "uvlock": true }
         },
-        {   "when": { "east": "true" },
+        {   "when": { "east": "low" },
             "apply": { "model": "strata:block/claystone_cobblestone_wall_side", "y": 90, "uvlock": true }
         },
-        {   "when": { "south": "true" },
+        {   "when": { "south": "low" },
             "apply": { "model": "strata:block/claystone_cobblestone_wall_side", "y": 180, "uvlock": true }
         },
-        {   "when": { "west": "true" },
+        {   "when": { "west": "low" },
             "apply": { "model": "strata:block/claystone_cobblestone_wall_side", "y": 270, "uvlock": true }
         }
     ]
